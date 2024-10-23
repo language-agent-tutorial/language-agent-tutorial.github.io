@@ -1,4 +1,4 @@
-# ACL 2023 Tutorial: Retrieval-based Language Models and Applications
+# EMNLP 2024 Tutorial: Language Agents: Foundations, Prospects, and Risks
 
 The code is adapted from the [Retrieval-based Language Models and Applications Tutorial](https://github.com/ACL2023-Retrieval-LM/ACL2023-Retrieval-LM.github.io) and the [Nerfies website](https://nerfies.github.io).
 
