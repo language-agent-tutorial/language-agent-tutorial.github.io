@@ -76,17 +76,9 @@
           </div>
           <br />
           <div class="is-size-5 publication-authors">
-            <b>Friday November 15 14:00 - 17:30 (EDT) @ Brickell/Flagler Ballrooms (Terrace Level)</b>
+            <b>Friday, November 15 14:00 - 17:30 (EDT) @ Brickell/Flagler Ballrooms (Terrace Level)</b>
           </div>
           
-
-          <!-- <div class="is-size-5 publication-authors">
-            Visit <a target="_blank" href="https://us06web.zoom.us/rec/play/6fqU9YDLoFtWqpk8w8I7oFrszHKW6JkbPVGgHsdPBxa69ecgCxbmfP33asLU3DJ74q5BXqDGR2ycOTFk.93teqylfi_uiViNK?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2FNrYheXPtE5zOlbogmdBg653RIu7RBO1uAsYH2CZt_hacD1jOHksRahGlERHc_Ybs.KGX1cRVtJBQtJf0o">this link</a>
-            for the Zoom recording of the tutorial
-          </div>
-          <div class="is-size-5 publication-authors">
-            QnA: <a href="https://tinyurl.com/retrieval-lm-tutorial" target="_blank"><b>tinyurl.com/retrieval-lm-tutorial</b></a>
-          </div> -->
         </div>
       </div>
     </div>
@@ -97,14 +89,19 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">About this tutorial</h2>
+        <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <p>
-            A key topic in AI and NLP today is autonomous agents, typically powered by large language models (LLMs), which can follow language instructions to complete complex tasks in real or simulated environments. While the concept of AI agents has existed since the beginning of AI, the recent shift lies in their ability to <i>use language as a vehicle for both thought and communication</i>, a trait previously unique to humans. This expands their ability to tackle diverse problems autonomously and sets them apart from earlier AI agents. To reflect this, the term "language agents" has been suggested, emphasizing language as their defining feature.
+            In the past year, AI agents based on large language models (LLMs) have rapidly become one of the most exciting yet controversial topic. Some think it's the next big thing, while others think these agents are just thin wrappers around LLMs. In this tutorial, we hope to carefully examine and reconcile the different viewpoints and properly contextualize the new generation of AI agents in the broader history of AI. We believe contemporary AI agents are qualitatively different from the previous generations (e.g., logical agents or neural agents). By integrating LLM(s), they gain a new capability of <i>using language as a vehicle for reasoning and communication</i>, which substantially improves their expressiveness and adaptivity. Therefore, they are best called <b>language agents</b>, for language being their most distinct trait.
 
           </p>
           <p>
-            Language played a crucial role in human cognitive evolution, and AI might be following a similar path. However, there has been little systematic discussion on the definition, theoretical foundations, risks, and future directions of language agents. This tutorial aims to fill that gap by providing a comprehensive exploration of language agents, linking insights from both modern and classic AI research.
+            Language played a crucial role in human cognitive evolution, and AI might be following a similar path. However, there has been little systematic discussion on the definition, theoretical foundations, applications, risks, and future directions of language agents. This cutting-edge tutorial aims to fill that gap by providing a comprehensive exploration of language agents.
+            
+          </p>
+
+          <p>
+            Note that this tutorial is not meant to be a comprehensive survey of related work or a practitioner's guide that focuses on code frameworks.
           </p>
         </div>
       </div>
@@ -113,7 +110,6 @@
 </section>
 
 
-<!-- 
 <section class="section">
   <div class="container is-max-desktop">
 
@@ -121,8 +117,8 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Schedule</h2>
         <p>
-          Our tutorial will be held on July 9 (all the times are based on EDT = Toronto local time).
-          <em>Slides may be subject to updates.</em>
+          Our tutorial will be held on November 15 (all the times are based on EST =  Miami local time).
+          <!-- <em>Slides may be subject to updates.</em> -->
         </p>
 
         <div class="content has-text-justified">
@@ -146,59 +142,39 @@
           </thead>
           <tbody>
             <tr>
-              <td class="tg-0lax">14:00—14:15</td>
-              <td class="tg-0lax">Section 1: Introduction  <a href="./slides/1-intro.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Danqi</td>
+              <td class="tg-0lax">14:00—14:20</td>
+              <td class="tg-0lax">Part I: Introduction  <a href="./slides/1-intro.pdf" target='_blank'></a></td>
+              <td class="tg-0lax">Yu Su</td>
             </tr>
             <tr>
-              <td class="tg-0lax">14:15—14:25</td>
-              <td class="tg-0lax">Section 2: Definition & Preliminaries  <a href="./slides/2-definition.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Sewon</td>
+              <td class="tg-0lax">14:20—15:20</td>
+              <td class="tg-0lax">Part II: Foundations: Reasoning, Memory, and Planning  <a href="./slides/2-definition.pdf" target='_blank'></a></td>
+              <td class="tg-0lax">Shunyu Yao, Yu Su</td>
             </tr>
             <tr>
-              <td class="tg-0lax">14:25—15:00</td>
-              <td class="tg-0lax">Section 3: Retrieval-based LMs: Architecture  <a href="./slides/3-architecture.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Sewon</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">15:00—15:25</td>
-              <td class="tg-0lax">Section 4: Retrieval-based LMs: Training  <a href="./slides/4-training.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Zexuan</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">15:25—15:30</td>
-              <td class="tg-0lax">Q & A Session I</td>
+              <td class="tg-0lax">15:20—15:30</td>
+              <td class="tg-0lax">Q&A Session I</td>
               <td class="tg-0lax"></td>
             </tr>
             <tr>
               <td class="tg-0lax">15:30—16:00</td>
-              <td class="tg-0lax">Coffee break</td>
+              <td class="tg-0lax">Coffee Break</td>
               <td class="tg-0lax"></td>
             </tr>
             <tr>
-              <td class="tg-0lax">16:00—16:25</td>
-              <td class="tg-0lax">Section 4 (Cont’d): Retrieval-based LMs: Training  <a href="./slides/4-training.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Zexuan</td>
+              <td class="tg-0lax">16:00—16:45</td>
+              <td class="tg-0lax">Part III: Applications, Data, and Evaluation  <a href="./slides/4-training.pdf" target='_blank'></a></td>
+              <td class="tg-0lax">Tao Yu</td>
             </tr>
             <tr>
-              <td class="tg-0lax">16:25—17:00</td>
-              <td class="tg-0lax">Section 5: Retrieval-based LMs: Applications  <a href="./slides/5-application.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Akari</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">17:00—17:10</td>
-              <td class="tg-0lax">Section 6: Extension: Multilingual & Multimodal  <a href="./slides/6-extension.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Akari</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">17:10—17:20</td>
-              <td class="tg-0lax">Section 7: Challenges & Opportunities  <a href="./slides/7-conclusion.pdf" target='_blank'>[Slides]</a> <a href="./slides/references.pdf" target='_blank'>[References]</a></td>
-              <td class="tg-0lax">Danqi</td>
+              <td class="tg-0lax">16:45—17:20</td>
+              <td class="tg-0lax">Part IV: Emerging Topics: Multi-Agent Systems, Safety, and Social Impact  <a href="./slides/5-application.pdf" target='_blank'></a></td>
+              <td class="tg-0lax">Diyi Yang</td>
             </tr>
             <tr>
               <td class="tg-0lax">17:20—17:30</td>
-              <td class="tg-0lax">Q & A Session II</td>
-              <td class="tg-0lax"></td>
+              <td class="tg-0lax">Part V: Final Remarks and Outlook + Q&A Session II <a href="./slides/6-extension.pdf" target='_blank'></a></td>
+              <td class="tg-0lax">Diyi Yang</td>
             </tr>
           </tbody>
           </table>
@@ -206,107 +182,31 @@
       </div>
     </div>
 
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Reading List</h2>
-
-        <p><b>Bold papers</b> are discussed in detail during our tutorial.</p>
-
-        <br />
-        
-        
-        <h3 class="title is-5">Section 3: Architecture</h3>
-
-        <ul>
-          <li><a href="https://arxiv.org/abs/2002.08909"><b>REALM: Retrieval-Augmented Language Model Pre-Training</b></a> (Guu et al., 2020)</li>
-          <li><a href="https://arxiv.org/pdf/2302.00083.pdf"><b>In-Context Retrieval-Augmented Language Models</b></a> (Ram et al., 2023)</li>
-          <li><a href="https://arxiv.org/pdf/2301.12652.pdf"><b>REPLUG: Retrieval-Augmented Black-Box Language Models</b></a> (Shi et al., 2023)</li>
-          <li><a href="https://arxiv.org/pdf/2112.04426.pdf"><b>Improving language models by retrieving from trillions of tokens</b></a> (Borgeaud et al., 2022)</li>
-          <li><a href="https://arxiv.org/pdf/1911.00172.pdf"><b>Generalization through Memorization: Nearest Neighbor Language Models</b></a> (Khandelwal et al., 2020)</li>
-          <li><a href="https://arxiv.org/abs/2305.06983">Active Retrieval Augmented Generation</a> (Jiang et al., 2023)</li>
-          <li><a href="https://arxiv.org/abs/2109.04212">Efficient Nearest Neighbor Language Models</a> (He et al., 2021)</li>
-          <li><a href="https://arxiv.org/abs/2210.15859">You can't pick your neighbors, or can you? When and how to rely on retrieval in the kNN-LM</a> (Drozdov et al., 2022)</li>
-          <li><a href="https://arxiv.org/abs/2201.12431">Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval</a> (Alon et al., 2022)</li>
-          <li><a href="https://arxiv.org/abs/2004.07202">Entities as Experts: Sparse Memory Access with Entity Supervision</a> (Févry et al., 2020)</li>
-          <li><a href="https://arxiv.org/abs/2110.06176">Mention Memory: incorporating textual knowledge into Transformers through entity mention attention</a> (de Jong et al., 2021)</li>
-          <li><a href="https://arxiv.org/abs/2203.08913">Memorizing Transformers</a> (Wu et al., 2022)</li>
-          <li><a href="https://arxiv.org/abs/2305.01625">Unlimiformer: Long-Range Transformers with Unlimited Length Input</a> (Bertsch et al. 2023)</li>
-          <li><a href="https://arxiv.org/abs/2306.13421">Long-range Language Modeling with Self-retrieval</a> (Rubin & Brent, 2023)</li>
-        </ul>
-        
-        <br />
-
-        <h3 class="title is-5">Section 4: Training</h3>
-
-        <ul>
-          <li><a href="https://arxiv.org/abs/2004.04906"><b>Dense Passage Retrieval for Open-Domain Question Answering</b></a> (Karpukhin et al., 2020)</li>
-          <li><a href="https://arxiv.org/abs/2112.04426"><b>Improving language models by retrieving from trillions of tokens</b></a> (Borgeaud et al., 2022 ;also in Section 3)</li>
-          <li><a href="https://arxiv.org/abs/2208.03299"><b>Atlas: Few-shot Learning with Retrieval Augmented Language Models</b></a> (Izacard et al., 2022)</li>
-          <li><a href="https://arxiv.org/abs/2205.12674"><b>Training Language Models with Memory Augmentation</b></a> (Zhong et al., 2022)</li>
-          <li><a href="https://arxiv.org/pdf/2112.09118.pdf">Unsupervised Dense Information Retrieval with Contrastive Learning</a> (Izacard et al., 2022)</li>
-          <li><a href="https://arxiv.org/pdf/2302.00083.pdf">In-Context Retrieval-Augmented Language Models</a> (Ram et al., 2023; also in Section 3)</li>
-          <li><a href="https://arxiv.org/pdf/2301.12652.pdf">REPLUG: Retrieval-Augmented Black-Box Language Models</a> (Shi et al., 2023; also in Section 3)</li>
-          <li><a href="https://arxiv.org/abs/2002.08909">REALM: Retrieval-Augmented Language Model Pre-Training</a> (Guu et al., 2020; also in Section 3)</li>
-          <li><a href="https://arxiv.org/abs/2212.01349">Nonparametric Masked Language Modeling</a> (Min et al., 2023)</li>
-          <li><a href="https://arxiv.org/abs/2306.13421">Long-range Language Modeling with Self-retrieval</a> (Rubin et al., 2023)</li>
-        </ul>
-
-        <br />
-
-        <h3 class="title is-5">Section 5: Application</h3>
-
-        <ul>
-          <li><a href="https://arxiv.org/abs/2208.03299"><b>Atlas: Few-shot Learning with Retrieval Augmented Language Models</b></a> (Izacard et al., 2022; also in Section 4)</li>
-          <li><a href="https://arxiv.org/abs/2203.11147"><b>Teaching language models to support answers with verified quotes</b></a> (Menick et al., 2022)</li>
-          <li><a href="https://arxiv.org/pdf/2301.12652.pdf"><b>REPLUG: Retrieval-Augmented Black-Box Language Models</b></a> (Shi et al., 2023; also in Section 3)</li>
-          <li><a href="https://arxiv.org/abs/2205.13792"><b>kNN-Prompt: Nearest Neighbor Zero-Shot Inference</b></a> (Shi et al., 2022)</li>
-          <li><a href="https://arxiv.org/abs/2212.08037"><b>Attributed Question Answering: Evaluation and Modeling for Attributed Large Language Models</b></a> (Bohnet et al., 2023)</li>
-          <li><a href="https://arxiv.org/abs/2207.05987"><b>DocPrompting: Generating Code by Retrieving the Docs</b></a> (Zhou et al., 2022)</li>
-          <li><a href="https://arxiv.org/abs/2212.10511">When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories</a> (Mallen et al., 2022)</li>
-          <li><a href="https://arxiv.org/abs/2212.01349">Nonparametric Masked Language Modeling</a> (Min et al., 2023; also in Section 4)</li>
-          <li><a href="https://arxiv.org/abs/2305.14251">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation</a> (Min et al., 2023)</li>
-        </ul>
-
-        <br />
-
-        <h3 class="title is-5">Section 6: Extension</h3>
-        
-        <ul>
-          <li><a href="https://arxiv.org/abs/2107.11976">One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval</a> (Asai et al., 2021)</li>
-          <li><a href="https://arxiv.org/abs/2211.12561">Retrieval-Augmented Multimodal Language Modeling</a> (Yasunaga et al., 2023)</li>
-        </ul>
-
-        
-        <br />
-        <h3 class="title is-5">Section 7: Challenges & Opportunities</h3>
-        <ul>
-          <li><a href="https://arxiv.org/abs/2305.14625">KNN-LM Does Not Improve Open-ended Text Generation</a> (Wang et al., 2023)</li>
-          <li><a href="https://arxiv.org/abs/2212.09146">Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model</a> (BehnamGhader et al., 2022)</li>
-          <li><a href="https://arxiv.org/abs/2212.14024">Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP</a> (Khattab et al., 2022)</li>
-        </ul>
-      </div>
-    </div>
-</section>
-
-
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{ retrieval-lm-tutorial,
-  author    = { Asai, Akari and Min, Sewon and Zhong, Zexuan and Chen, Danqi },
-  title     = { ACL 2023 Tutorial: Retrieval-based Language Models and Applications },
-  journal   = { ACL 2023 },
-  year      = { 2023 },
-}</code></pre>
+    <pre><code>@inproceedings{language-agent-tutorial,
+      title = "Language Agents: Foundations, Prospects, and Risks",
+      author = "Su, Yu and Yang, Diyi and Yao, Shunyu and Yu, Tao",
+      booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Tutorial Abstracts",
+      month = nov,
+      year = "2024",
+      address = "Miami, Florida, USA",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2024.emnlp-tutorials.3",
+      pages = "17--24",
+    }</code></pre>
   </div>
 </section> 
--->
+
+
+
 
 
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link" href="https://github.com/ACL2023-Retrieval-LM" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/language-agent-tutorial/language-agent-tutorial.github.io" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
